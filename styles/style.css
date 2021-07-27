@@ -1,0 +1,673 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+html {
+  background-color: #4CAF50;
+}
+
+*{
+  box-sizing: border-box;
+}
+/*======================================================================================================================================*/
+marquee,
+.navbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+marquee,
+.toggle-button .bar{
+  width: 100%;
+}
+
+marquee{
+  background-color:#4CAF50
+}
+
+#header,
+#donateHead{
+  color: #2802fd;
+}
+
+#header,
+.navbar,
+.subHead,
+.subp1,
+#footerdl,
+.copyright,
+.APsubHead,
+#AsubHead,
+#donateHead,
+.twoLink,
+.conH,
+#otherhead{
+  font-family: Raleway;
+}
+
+.navbar,
+.navbar-links ul,
+.imagesHome,
+.container,
+.twoLink{
+  display: flex;
+}
+
+.toggle-button,
+.imagesHome{
+  justify-content: space-between;
+}
+
+.navbar,
+.twoLink{
+  align-items: center;
+}
+
+.navbar,
+.navbar-links li a,
+.toggle-button .bar,
+.twoLink,
+.twoLink a{
+  color: white;
+}
+.footera a:link, .footera a:visited{
+  background-color: white;
+}
+
+.footera a:link,
+.footera a:visited,
+.twoLink a,
+.navbar-links li a{
+  text-decoration: none;
+}
+
+
+
+.twoLink a,
+.navbar-links li a{
+  padding: 1rem;
+}
+
+.mainlep,
+.photo,
+#peacock,
+.twoLink a,
+#leatherback,
+.navbar-links li a{
+  display: block;
+}
+#menuToggle,
+.form2,
+.toggle-button{
+  display: none;
+}
+
+.mainlep,
+.photo,
+.tablePhoto,
+table,
+#peacock,
+.container,
+#leatherback{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo,
+.mainlep,
+#img,
+#leatherback{  
+   width: 50%;
+ }
+
+ .mainlep,
+.footera a:link,
+.footera a:visited,
+.photo,
+#peacock,
+#leatherback{
+  border-radius: 12px;
+}
+
+.APsubHead,
+#AsubHead,
+.subHead{
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+marquee{
+  
+  top: 0;
+
+
+
+  direction: ltr;
+ 
+}
+body{
+ 
+  background-image: url(../images/bg-page.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover ;
+  
+}
+
+.navbar{
+  
+  top: 18px;
+  background-color: #333;
+}
+
+
+
+
+body,
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar-links li{
+  list-style: none;
+}
+
+
+
+.twoLink:hover,
+.navbar-links li:hover{
+  background-color: #555;
+}
+.container,
+.toggle-button{
+  flex-direction: column;
+  top: .75rem;
+  right: 1rem;
+  width: 30px;
+  
+}
+
+.toggle-button .bar{
+  height: 3px;
+  
+
+  border-radius: 10px;
+}
+
+
+
+
+#leatherback,
+.mainlep{
+  margin-top: 16px;
+}
+.animals,
+.plants,
+.footera a:link,
+.footera a:visited,
+#donateHead,
+.conH,
+#otherhead,
+.subHead{
+
+  text-align: center;
+  
+}
+.para1,
+.subp1,
+.content{
+  margin: 0 auto;
+}
+.para1
+.animals,
+.plants,
+.subp1{
+  height: auto;
+}
+
+.subp1,
+.content{
+  padding-bottom: 30px;
+}
+.animals,
+.plants,
+map,
+.para1{
+  width: auto;
+}
+
+
+.content{
+    width: 900px;
+    overflow: hidden;
+  
+
+  }
+.para1{
+  background:url(../images/bg-page.gif) no-repeat center 0;
+	
+	
+	
+  }
+.twoLink,
+.imagesHome{
+    
+    flex-direction: row;
+
+}
+.subp1,
+.tablePhoto,
+#peacock{
+  width: 80%;
+}
+
+
+.subp1{
+  font-size: 20px;
+}
+
+.layout,
+.footer{
+  display: grid;
+}
+#iframe1,
+#footerdl{
+  color: #ddd;
+}
+
+
+.footer{
+  background-color: rgb(95, 95, 95);
+  font-family: 'Shadows Into Light Two', cursive;
+
+  grid-template-columns: 2fr 5fr 2fr;
+  grid-template-rows: 5fr 1fr;
+  grid-template-areas:
+  "iframe middle1 footerdl"
+  "copyright middle1 footerdl" ;
+  justify-content:space-between;
+}
+#iframe1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  padding: 10px 10px 10px 10px;
+  grid-area: iframe;
+}
+
+#footerdl{
+  padding: 10px 10px 10px 10px;
+  font-size: 1.2em;
+  grid-area: footerdl;
+}
+.middle{
+  font-size: 30px;
+  color: aliceblue;
+  grid-area: middle1;
+}
+
+
+.footera a:link,
+.footera a:visited {
+
+  color: black;
+  padding: 14px 25px;
+  display: inline-block;
+
+}
+
+.footera a:hover, .footera a:active {
+  background-color: rgb(69, 175, 69);
+}
+.copyright{
+  
+  margin-left: 6%;
+  font-size: 14px;
+  grid-area: copyright;
+
+}
+#email{
+  color: orangered;
+}
+#AsubHead,
+.APsubHead{
+  text-align: left;
+}
+
+#APHead{
+  padding-top: 9%;
+  font-size: 40px;
+}
+.form2,
+.form1,
+.APsubHead{  
+  margin-left: 10%;
+}
+
+#AsubHead{
+  margin-left: 13%;
+  text-decoration: underline;
+}
+
+
+.tablePhoto{
+  padding: 10%;
+}
+
+table{
+  width: 75%;
+}
+table, th, td{
+  border: 3px solid  black;
+  border-collapse: collapse;
+}
+
+
+
+#peacock{
+  margin-top: 80px;
+  grid-area: peacock;
+}
+
+
+#otherhead,
+#donateHead{
+  text-shadow: 2px 2px 5px #7761f3;
+  font-size: 225%;
+}
+.donInfo{
+ margin-left: 40px;
+ margin-right: 40px;
+}
+.container{
+  width: 90%;
+  justify-content: end;
+}
+
+.layout{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "openHours pinmap"
+  "ticket pinmap";
+}
+#openHours{
+  grid-area: openHours;
+}
+#ticket{
+  grid-area: ticket;
+}
+#pinmap{
+  grid-area: pinmap;
+}
+
+.twoLink{
+  justify-content: space-evenly;
+  background-color: rgb(31, 11, 105);
+}
+
+
+
+
+
+
+.conH{
+  font-size: 32px; 
+  color: #4b0707;
+}
+
+
+#otherhead{
+  padding-top: 8%;
+  color: #35210e; 
+}
+
+/*mobile version--------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+@media only screen and (max-width:600px) {
+
+  .navbar-links ul ,
+  .navbar-links,
+  .mainlep{
+    width: 100%;
+  }
+  .mainlep{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+  
+  .tablePhoto{
+    width: 80px;
+  }
+  .para1{
+    width: 40%;
+    font-size: 24px;
+    text-align: left;
+  }
+  .maindon,
+  .footer{
+    grid-template-columns: 1fr;
+  }
+
+  .footer{
+    grid-template-rows: 3fr 1fr 1fr 0.8fr ;
+    grid-template-areas: 
+    "iframe"
+    "footerdl"
+    "middle1"
+    "copyright";
+  }
+
+  
+  .navbar-links ul li,
+  .middle{
+    text-align: center;
+  }
+
+  .donInfo,
+  #map{
+    margin-left: 10%;
+  }
+  .maindon{
+    grid-template-rows: 3fr 3fr 1fr;
+    grid-template-areas: 
+    "peacock" 
+    "donInfo";
+  }
+
+ 
+  .form1,
+  .navbar-links {
+    display: none;
+    
+}
+
+.navbar-links ul {
+
+    flex-direction: column;
+}
+
+.navbar-links ul li a {
+    padding: .5rem 1rem;
+}
+
+.navbar-links.active {
+    display: flex;
+}
+.form2,
+#menuToggle{
+    display: unset;
+}
+#menuToggle,
+#menuToggle input,
+#menuToggle span{
+  display: block;
+}
+
+
+#menuToggle,
+#menuToggle span{
+  position: relative;
+}
+
+#menuToggle{
+    top: 4px;
+    left: 10px;
+    
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle a{
+  text-decoration: none;
+  color: white;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover{
+  color: tomato;
+}
+
+
+#menu,
+#menuToggle input{
+  position: absolute;
+}
+#menuToggle input{
+
+  width: 40px;
+  height: 32px;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle input:checked ~ span,
+#menuToggle span{
+  background: white;
+}
+#menuToggle span{
+
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menu,
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+  }
+
+#menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+
+
+#menuToggle input:checked ~ span{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+
+  }
+
+ #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+
+#menuToggle input:checked ~ span:nth-last-child(2){
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+
+#menu{
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    
+    background: rgba(51, 51, 51, 0.644);
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+#menuToggle input:checked ~ ul {
+    transform: none;
+  }
+.layout{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-areas: 
+    "openHours"
+    "ticket"
+    "pinmap";
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+textarea,
+fieldset.border {
+  width: 250px;
+  width: 250px;
+  
+}
+textarea {
+  resize  : none;
+}
+#donation {
+  width: 100px;
+  vertical-align: top;
+}
+input:focus, textarea:focus {
+background   : lightgray;
+outline      : none;
+}
+input:invalid {
+  box-shadow: 0 0 1px 1px red;
+}
